@@ -1,10 +1,10 @@
 {
-    "name": "create-acf-block-json",
+    "name": "create-acf-block-jsonv2",
     "description": "Quickly create an a new WordPress Block that uses Advanced Custom Fields (ACF) and utilised block.json and block-specific CSS.",
     "version": "1.0.11",
     "main": "./lib/create-acf-block-json.js",
     "bin": {
-        "create-acf-block-json": "./bin/index.js"
+        "create-acf-block-json": "bin/index.js"
     },
     "keywords": [
         "acf",
@@ -28,10 +28,17 @@
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "git://github.com/thetwopct/create-acf-block-json"
+        "url": "git://github.com/thetwopct/create-acf-block-json.git"
     },
     "dependencies": {
         "prompts": "^2.4.2"
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "directories": {
+        "lib": "lib"
+    },
+    "bugs": {
+        "url": "https://github.com/thetwopct/create-acf-block-json/issues"
+    },
+    "homepage": "https://github.com/thetwopct/create-acf-block-json#readme"
 }
